@@ -21,7 +21,7 @@ jobs:
     - name: Build with Gradle
       continue-on-error: true
       id: sanityTest
-      run: ./gradlew automationTest -DType=Cucumber # Run our tests using Gradle
+      run: ./gradlew automationTest -DType=Cucumber
     - name: Send email report
      
       uses: dawidd6/action-send-mail@v2
