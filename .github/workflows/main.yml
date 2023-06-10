@@ -34,6 +34,8 @@ jobs:
         body: |
           Hi,
           Please find attached the automated test report.
+          file://./build/reports/feature.html
+        attachments: ./build/reports/feature.html
         from: Github Actions
         to: manotosh.10@gmail.com
         content_type: text/html
